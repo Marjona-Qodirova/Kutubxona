@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitoblar</title>
+</head>
+<body>
+    <h2> Bizda bor kitoblar ro'yxati</h2>
+    <br>
+    <br>
+    {% for i in kitoblar%}
+     <h3> {{i}}</h3>
+    {%endfor%}
+
+    <br>
+    <br>
+    <h2> sahifasi kop kitoblar  ro'yxati</h2>
+    {%for i in sahifasi_kop%}
+    <h3> {{i}}</h3>
+    {%endfor%}
+
+</body>
+</html>
